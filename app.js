@@ -59,8 +59,8 @@ const everythingEverywhereAllatOnce = {
   rating: 7.8, // Number (kan have decimaler)
   director: "Daniel Kwan", "Daniel Scheinert",
   image: "https://m.media-amazon.com/images/M/MV5BOWNmMzAzZmQtNDQ1NC00Nzk5LTkyMmUtNGI2N2NkOWM4MzEyXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg", // URL til poster billede
-  actors: [...], // Array med skuespillere
-  description: "..." // Kort beskrivelse af filmen
+  actors: ["Michelle Yeoh", "Stephanie Hsu", "Ke Huy Quan"], // Array med skuespillere
+  description: "An aging Chinese immigrant is swept up in an insane adventure, where she alone can save the world by exploring other universes." // Kort beskrivelse af filmen
 };
 
 console.log("Everything Everywhere All at Once:", everythingEverywhereAllatOnce);
@@ -74,8 +74,8 @@ const fightClub = {
   rating: 8.8,
   director: "David Fincher",
   image: "https://m.media-amazon.com/images/I/51v5ZpFyaFL._AC_.jpg",
-  actors: [...],
-  description: "..."
+  actors: ["Brad Pitt", "Edward Norton", "Helena Bonham Carter"],
+  description: "An insomniac office worker and a soap maker form an underground fight club that evolves into something much more."
 };
 
 console.log("Fight Club:", fightClub);
@@ -84,13 +84,13 @@ console.log("Fight Club:", fightClub);
 const forrestGump = {
   id: 6,
   title: "Forrest Gump",
-  year: 1994
+  year: 1994,
   genre: ["Drama", "Romance"],
   rating: 8.8,
   director: "Robert Zemeckis",
   image: "https://upload.wikimedia.org/wikipedia/en/6/67/Forrest_Gump_poster.jpg",
-  actors: [...],
-  description: "..."
+  actors: ["Tom Hanks", "Robin Wright", "Gary Sinise"],
+  description: "The presidencies of Kennedy and Johnson, the Vietnam War, and other historical events unfold from the perspective"
 };
 
 console.log("Forrest Gump:", forrestGump);
@@ -104,8 +104,8 @@ const goodFellas = {
   rating: 8.7,
   director: "Martin Scorsese",
   image: "https://upload.wikimedia.org/wikipedia/en/7/7b/Goodfellas.jpg",
-  actors: [...],
-  description: "..."
+  actors: ["Robert De Niro", "Ray Liotta", "Joe Pesci"],
+  description: "The story of Henry Hill and his life in the mob, covering his relationship with his wife Karen Hill and his mob partners Jimmy Conway and Tommy DeVito in the Italian-American crime syndicate."
 };
 
 console.log("Goodfellas:", goodFellas);
@@ -119,8 +119,8 @@ const inception = {
   rating: 8.8,
   director: "Christopher Nolan",
   image: "https://m.media-amazon.com/images/M/MV5BMjExMjkwNTQ0Nl5BMl5BanBnXkFtZTcwNTY0OTk1Mw@@._V1_.jpg",
-  actors: [...],
-  description: "..."
+  actors: ["Leonardo DiCaprio", "Joseph Gordon-Levitt", "Ellen Page"],
+  description: "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O."
 };
 
 console.log("Inception:", inception);
