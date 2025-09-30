@@ -49,3 +49,78 @@ const duneTwoMovie = {
 };
 
 console.log("Dune: Part Two movie object:", duneTwoMovie);
+
+// Movie 4: Everything Everywhere All at Once
+const everythingEverywhereAllatOnce = {
+  id: 4, // Unikt nummer for filmen
+  title: "Everything Everywhere All at Once",
+  year: 2022, // Number, ikke string!
+  genre: ["Action", "Adventure", "Comedy"], // Array med genres, f.eks. ["Action", "Drama"]
+  rating: 7.8, // Number (kan have decimaler)
+  director: "Daniel Kwan", "Daniel Scheinert",
+  image: "https://m.media-amazon.com/images/M/MV5BOWNmMzAzZmQtNDQ1NC00Nzk5LTkyMmUtNGI2N2NkOWM4MzEyXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg", // URL til poster billede
+  actors: [...], // Array med skuespillere
+  description: "..." // Kort beskrivelse af filmen
+};
+
+console.log("Everything Everywhere All at Once:", everythingEverywhereAllatOnce);
+
+// Movie 5: Fight Club
+const fightClub = {
+  id: 5,
+  title: "Fight Club",
+  year: 1999,
+  genre: ["Drama"],
+  rating: 8.8,
+  director: "David Fincher",
+  image: "https://m.media-amazon.com/images/I/51v5ZpFyaFL._AC_.jpg",
+  actors: [],
+  description: "..."
+};
+
+console.log("Fight Club:", fightClub);
+
+// Movie 6: Forrest Gump
+const forrestGump = {
+  id: 6,
+  title: "Forrest Gump",
+  year: 1994
+  genre: ["Drama", "Romance"],
+  rating: 8.8,
+  director: "Robert Zemeckis",
+  image: "https://upload.wikimedia.org/wikipedia/en/6/67/Forrest_Gump_poster.jpg",
+  actors: [...],
+  description: "..."
+};
+
+console.log("Forrest Gump:", forrestGump);
+
+// Movie 7: Goodfellas
+const goodFellas = {
+  id: 7,
+  title: "Goodfellas",
+  year: 1990,
+  genre: ["Biography", "Crime", "Drama"],
+  rating: 8.7,
+  director: "Martin Scorsese",
+  image: "https://upload.wikimedia.org/wikipedia/en/7/7b/Goodfellas.jpg",
+  actors: [...],
+  description: "..."
+};
+
+console.log("Goodfellas:", goodFellas);
+
+// Movie 8: Inception
+const inception = {
+  id: 8,
+  title: "Inception",
+  year: 2010,
+  genre: ["Action", "Adcenture", "Sci-Fi"],
+  rating: 8.8,
+  director: "Christopher Nolan",
+  image: "https://m.media-amazon.com/images/M/MV5BMjExMjkwNTQ0Nl5BMl5BanBnXkFtZTcwNTY0OTk1Mw@@._V1_.jpg",
+  actors: [...],
+  description: "..."
+};
+
+console.log("Inception:", inception);
