@@ -74,7 +74,7 @@ const fightClub = {
   rating: 8.8,
   director: "David Fincher",
   image: "https://m.media-amazon.com/images/I/51v5ZpFyaFL._AC_.jpg",
-  actors: [],
+  actors: [...],
   description: "..."
 };
 
