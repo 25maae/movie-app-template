@@ -57,7 +57,7 @@ const everythingEverywhereAllatOnce = {
   year: 2022, // Number, ikke string!
   genre: ["Action", "Adventure", "Comedy"], // Array med genres, f.eks. ["Action", "Drama"]
   rating: 7.8, // Number (kan have decimaler)
-  director: "Daniel Kwan", "Daniel Scheinert",
+  director: "Daniel Kwan, Daniel Scheinert",
   image: "https://m.media-amazon.com/images/M/MV5BOWNmMzAzZmQtNDQ1NC00Nzk5LTkyMmUtNGI2N2NkOWM4MzEyXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg", // URL til poster billede
   actors: ["Michelle Yeoh", "Stephanie Hsu", "Ke Huy Quan"], // Array med skuespillere
   description: "An aging Chinese immigrant is swept up in an insane adventure, where she alone can save the world by exploring other universes." // Kort beskrivelse af filmen
