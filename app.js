@@ -51,7 +51,7 @@ const duneTwoMovie = {
 console.log("Dune: Part Two movie object:", duneTwoMovie);
 
 // Movie 4: Everything Everywhere All at Once
-const everythingEverywhereAllatOnce = {
+const everythingEverywhereMovie = {
   id: 4, // Unikt nummer for filmen
   title: "Everything Everywhere All at Once",
   year: 2022, // Number, ikke string!
@@ -63,10 +63,10 @@ const everythingEverywhereAllatOnce = {
   description: "An aging Chinese immigrant is swept up in an insane adventure, where she alone can save the world by exploring other universes." // Kort beskrivelse af filmen
 };
 
-console.log("Everything Everywhere All at Once:", everythingEverywhereAllatOnce);
+console.log("Everything Everywhere All at Once:", everythingEverywhereMovie);
 
 // Movie 5: Fight Club
-const fightClub = {
+const fightClubMovie = {
   id: 5,
   title: "Fight Club",
   year: 1999,
@@ -78,10 +78,10 @@ const fightClub = {
   description: "An insomniac office worker and a soap maker form an underground fight club that evolves into something much more."
 };
 
-console.log("Fight Club:", fightClub);
+console.log("Fight Club:", fightClubMovie);
 
 // Movie 6: Forrest Gump
-const forrestGump = {
+const forrestGumpMovie = {
   id: 6,
   title: "Forrest Gump",
   year: 1994,
@@ -93,10 +93,10 @@ const forrestGump = {
   description: "The presidencies of Kennedy and Johnson, the Vietnam War, and other historical events unfold from the perspective"
 };
 
-console.log("Forrest Gump:", forrestGump);
+console.log("Forrest Gump:", forrestGumpMovie);
 
 // Movie 7: Goodfellas
-const goodFellas = {
+const goodFellasMovie = {
   id: 7,
   title: "Goodfellas",
   year: 1990,
@@ -105,22 +105,45 @@ const goodFellas = {
   director: "Martin Scorsese",
   image: "https://upload.wikimedia.org/wikipedia/en/7/7b/Goodfellas.jpg",
   actors: ["Robert De Niro", "Ray Liotta", "Joe Pesci"],
-  description: "The story of Henry Hill and his life in the mob, covering his relationship with his wife Karen Hill and his mob partners Jimmy Conway and Tommy DeVito in the Italian-American crime syndicate."
+  description:
+    "The story of Henry Hill and his life in the mob, covering his relationship with his wife Karen Hill and his mob partners Jimmy Conway and Tommy DeVito in the Italian-American crime syndicate.",
 };
 
-console.log("Goodfellas:", goodFellas);
+console.log("Goodfellas:", goodFellasMovie);
 
 // Movie 8: Inception
-const inception = {
+const inceptionMovie = {
   id: 8,
   title: "Inception",
   year: 2010,
   genre: ["Action", "Adcenture", "Sci-Fi"],
   rating: 8.8,
   director: "Christopher Nolan",
-  image: "https://m.media-amazon.com/images/M/MV5BMjExMjkwNTQ0Nl5BMl5BanBnXkFtZTcwNTY0OTk1Mw@@._V1_.jpg",
+  image:
+    "https://m.media-amazon.com/images/M/MV5BMjExMjkwNTQ0Nl5BMl5BanBnXkFtZTcwNTY0OTk1Mw@@._V1_.jpg",
   actors: ["Leonardo DiCaprio", "Joseph Gordon-Levitt", "Ellen Page"],
-  description: "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O."
+  description:
+    "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O.",
 };
 
-console.log("Inception:", inception);
+console.log("Inception:", inceptionMovie);
+
+// Opret beskeder med movie data
+console.log(`${barbieMovie.title} (${barbieMovie.year}) - Rating: ⭐ ${barbieMovie.rating}`);
+console.log(`${duneMovie.title} er instrueret af ${duneMovie.director}`);
+console.log(`${fightClubMovie.title} er fra ${fightClubMovie.year} og har rating ${fightClubMovie.rating}`);
+
+// Du kan nu programmatisk arbejde med data:
+
+// Ændre rating
+barbieMovie.rating = 7.5;
+console.log("Updated Barbie rating:", barbieMovie.rating);
+
+// Tilføje ny property
+barbieMovie.watched = true;
+console.log("Barbie movie with watched status:", barbieMovie);
+
+// Beregne movie alder
+const currentYear = new Date().getFullYear();
+const barbieAge = currentYear - barbieMovie.year;
+console.log(`${barbieMovie.title} er ${barbieAge} år gammel`);
